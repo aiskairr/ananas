@@ -1,0 +1,66 @@
+@media screen and (min-width: 1201px) {
+    ::-webkit-scrollbar-thumb {
+        /* Укажи цвет скроллбара */
+        background: #000000;
+        /* Укажи радиус скругления скроллбара */
+        border-radius: 10px;
+    }
+    ::-webkit-scrollbar {
+        /* Укажи ширину вертикального скроллбара */
+        width: 5px;
+        /* Укажи высоту горизонтального скроллбара */
+        height: 5px;
+        /* Укажи цвет фона под скроллбаром */
+        background: #ffffff;
+    }
+}
+
+.t-popup__container, .t706__cartwin-content {
+    border-radius: 30px;
+}
+
+
+
+.sub-popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow-y: auto;
+    opacity: 0;
+    -webkit-transition: opacity 0.3s ease-in-out;
+    -moz-transition: opacity 0.3s ease-in-out;
+    -o-transition: opacity 0.3s ease-in-out;
+    transition: opacity 0.3s ease-in-out;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    cursor: default;
+    padding: 0 20px;
+    background-color: rgba(0, 0, 0, .6);
+    backdrop-filter: blur(3px);
+    z-index: 2000;
+}
+
+.sub-popup .t396__filter,
+.close {
+    cursor: pointer;
+}
+
+.sub-popup.sub-popup_show {
+    opacity: 1;
+    display: block;
+}
+.sale_date{
+    color: #ffffff;
+    font-size: 20px;
+    font-family: 'suisse',Arial,sans-serif;
+    font-weight: 400;
+    border-color: transparent;
+    background-position: center center;
+    border-style: solid;
+}
+
+

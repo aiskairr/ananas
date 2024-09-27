@@ -1,0 +1,36 @@
+.modal-w{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    gap: 40px;
+}
+.modal-w label{
+    font-size: 20px;
+    font-family: 'Suisse', Arial, sans-serif;
+    font-weight: bold;
+    color: rgb(193, 193, 193);
+}
+.modal-w p{
+    font-family: 'Suisse', Arial, sans-serif;
+    color: #7488fc;
+    font-size: 30px;
+    font-weight: 700;
+    
+}
+.modal-w input{
+    width: 100%;
+    height: 30px;
+    color: gray;
+    border: 1px solid gray;
+    border-radius: 4px;
+    background-color: transparent;
+}
+.modal-w input[type="submit"]{
+    background-color: #fc71f0;
+    color: white;
+    font-size: 16px;
+    border: 0;
+}
+.t-popup__container{
+    background-color: #13171A !important;
+}
